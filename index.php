@@ -1,7 +1,7 @@
 <?php
 
 // パラメータ類
-$tenant_id = '<your tenatn id>';
+$tenant_id = '<your tenatn domain name. e.g. hoge.onmicrosoft.com>';
 $client_id = '<your client id>';
 $client_secret = '<your client secret>';
 $redirect_uri = 'https://<your app service name>.azurewebsites.net/index.php';
