@@ -1,12 +1,11 @@
 <?php
 
 // パラメータ類
-$tenant_id = '<your tenatn domain name. e.g. hoge.onmicrosoft.com>';
 $client_id = '<your client id>';
 $client_secret = '<your client secret>';
 $redirect_uri = 'https://<your app service name>.azurewebsites.net/index.php';
-$authorization_endpoint = 'https://login.microsoftonline.com/' . $tenant_id . '/oauth2/authorize';
-$token_endpoint = 'https://login.microsoftonline.com/' . $tenant_id . '/oauth2/token';
+$authorization_endpoint = '<authorize endpoint url>';
+$token_endpoint = '<token endpoint url>';
 $response_type = 'code';
 $state =  'state_phpv1';
 
