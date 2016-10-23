@@ -23,7 +23,8 @@ if(!$req_code){
 		'redirect_uri'=> $redirect_uri,
 		'scope'=>'openid email',
 		'state'=>$state,
-		'nonce'=>$_SESSION['nonce']
+		'nonce'=>$_SESSION['nonce'],
+		'prompt'=>'admin_consent'
 	));
 	// リクエスト
 	header('Location: ' . $authorization_endpoint . '?' . $query );
