@@ -1,8 +1,8 @@
 <?php
 
 // パラメータ類
-$client_id = '<your client id>';
-$client_secret = '<your client secret>';
+$client_id = '<アプリケーションIDを張り付けてください>';
+$client_secret = '<キーを張り付けてください>';
 $redirect_uri = 'https://<your app service name>.azurewebsites.net/index.php';
 $authorization_endpoint = '<authorize endpoint url>';
 $token_endpoint = '<token endpoint url>';
