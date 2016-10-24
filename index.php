@@ -3,9 +3,9 @@
 // パラメータ類
 $client_id = '<アプリケーションIDを張り付けてください>';
 $client_secret = '<キーを張り付けてください>';
-$redirect_uri = 'https://<your app service name>.azurewebsites.net/index.php';
-$authorization_endpoint = '<authorize endpoint url>';
-$token_endpoint = '<token endpoint url>';
+$redirect_uri = 'https://<アプリケーション名を張り付けてください>.azurewebsites.net/index.php';
+$authorization_endpoint = '<OAUTH 2.0 承認エンドポイントのアドレスを張り付けてください>';
+$token_endpoint = '<OAUTH 2.0 トークンエンドポイントのアドレスを張り付けてください>';
 $response_type = 'code';
 $state =  'state_phpv1';
 
